@@ -1,0 +1,60 @@
+/*CSS DOCUMENT*/
+
+body {
+    background-color: rgb(250, 243, 232);
+}
+img {
+    width: 100%;
+    border-color: rgb(143, 65, 50);
+    border-style: double;
+    border-width: 1em;
+}
+
+div.introimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: rgb(143, 65, 50);
+    text-align: center;
+}
+
+h2 {
+    font-family: cursive;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(143, 65, 50);
+}
+
+p {
+    font-family: sans-serif;
+    margin: 2em;
+}
+
+.directions {
+    font-family: sans-serif;
+    margin: 2em;
+    padding-top: 3em;
+}
+
+.ingredients {
+    font-family: sans-serif;
+    margin: 3em;
+    float: left;
+    margin-bottom: 8em;
+}
+
+li{
+    margin-bottom: 1em;
+}
+}
+
