@@ -1,1 +1,36 @@
-img{width: 100%;}
+/*CSS DOCUMENT*/   
+
+body {
+    background-color: rgb(245, 249, 255)
+}
+
+img{
+    width: 100%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+text-align: center;
+}
+
+.navigation li{
+    float:left;
+    padding: 0 .5em 2em 2em;
+    font-size: 1.4em;
+    list-style-type: none;
+}
+
+a {
+    text-decoration:none;
+    color: rgb(127, 116, 194)
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+
+
