@@ -1,7 +1,7 @@
 /*CSS DOCUMENT*/   
 
 body {
-    background-color: rgb(245, 249, 255)
+    background-color: rgb(238, 246, 254);
 }
 
 img{
@@ -14,6 +14,7 @@ img{
   margin-right: auto;
   width: 100%;
 text-align: center;
+    font-family: sans-serif;
 }
 
 .center {
@@ -22,8 +23,11 @@ text-align: center;
   margin-right: auto;
 margin-bottom: 3em;
     margin-top: 3em;
-  width: 60%;
+  width: 80%;
 text-align: center;
+    border-style: outset;
+    border-width: 1em;
+    border-color: rgb(81, 92, 153)
 }
 
 .navigation li{
@@ -34,15 +38,17 @@ text-align: center;
     margin-right: auto;
     display: block;
     text-align: center;
+    font-family: sans-serif;
 }
 
 a {
     text-decoration:none;
-    color: rgb(127, 116, 194)
+    color: rgb(172, 171, 204);
 }
 
 h1, h2, h3, h4, h5 {
     text-align: center;
+    font-family: sans-serif;
 }
 
 p {
@@ -54,7 +60,7 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+    font-family: sans-serif;
 }
 
 .logo
@@ -68,7 +74,7 @@ p {
 }
 
 li a:hover {
-  color: rgb(37, 5, 110);
+  color: rgb(81, 92, 153);
 }
     
 .smaller {
@@ -78,5 +84,25 @@ li a:hover {
   width: 40%;
     margin-top: 2em;
     margin-bottom: 2em;
+    border-style: outset;
+    border-width: 1em;
+    border-color: rgb(81, 92, 153);
     }
 
+h1, h2, h5 {
+    color: rgb(81, 92, 153);
+}
+
+h4 {
+    color: rgb(172, 171, 204);
+}
+
+.coin {
+    width: 30%;
+    border-style: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
